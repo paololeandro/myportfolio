@@ -176,21 +176,17 @@ a:hover {
 }
 
 @media (max-width: 767px) {
+    
+    body {
+        padding: 0;
+    }
+    
     .sidebar-wrapper {
         position: static;
         width: inherit;
     }
-}
 
-
-@media (max-width: 767px) {
     .main-wrapper {
         padding: 30px;
-    }
-}
-
-@media (max-width: 767px) {
-    body {
-        padding: 0;
     }
 }
