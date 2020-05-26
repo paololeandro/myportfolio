@@ -1,2 +1,4 @@
-# Paolo Leandro - Portfolio
-My first portfolio
+# Website base
+
+- HTML
+- CSS
