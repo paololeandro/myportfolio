@@ -7,7 +7,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #F5F5F5;
-    padding: 30px;
     font-size: 14px;
 }
 
@@ -27,7 +26,6 @@ p {
     background-color: #FFF;
     margin: 0 auto;
     width: 100%;
-    max-width: 1000px;
     position: relative;
 }
 
@@ -35,8 +33,8 @@ p {
     background-color: #2a2f35;
     position: absolute;
     left: 0;
-    width: 280px;
-    height: 100%;
+    width: 380px;
+    height: 100vh;
     min-height: 800px;
     color: #FFF;
 }
@@ -44,7 +42,7 @@ p {
 .profile-container {
     text-align: center;
     background-color: #2a2f35;
-    padding: 30px;
+    padding:50px 30px 30px 30px;
     height: 237px;
 }
 
@@ -131,8 +129,8 @@ a:hover {
 
 .main-wrapper {
     padding: 60px;
-    padding-left: 340px;
-    min-height: 800px;
+    padding-left: 400px;
+    min-height: 100vh;
 }
 
 .main-wrapper .section {
@@ -155,10 +153,6 @@ a:hover {
     margin-right: 8px;
     color: #2a2f35;
     position: relative;
-}
-
-.footer {
-    padding-top: 30px;
 }
 
 .text-center {
