@@ -92,14 +92,17 @@ a {
     text-decoration: none;
 }
 
-i {
+svg{
+    display: inline-block;
     font-size: 25px;
     color: rgba(255, 255, 255, 0.6);
+    height: 1em;
+    overflow: visible;
 }
 
-i:hover {
-    transition: 0.3s;
+svg:hover {
     transform: scale(1.1);
+    transition: 0.3s;
     color: rgba(255, 255, 255, 1);
 }
 
@@ -157,8 +160,9 @@ i:hover {
 .main-wrapper .section-title .fa-user {
     font-size: 18px;
     margin-right: 8px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 1);
     position: relative;
+    vertical-align: -.125em;
 }
 
 .text-center {
@@ -174,6 +178,7 @@ i:hover {
 .footer .fa-heart {
     font-size: 15px;
     color: #FB866A;
+    vertical-align: -.125em;
 }
 
 @media (max-width: 767px) {
