@@ -98,6 +98,7 @@ i {
 
 i:hover {
     transition: 0.3s;
+    transform: scale(1.1);
     color: rgba(255, 255, 255, 1);
 }
 
