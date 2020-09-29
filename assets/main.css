@@ -140,6 +140,9 @@ svg:hover {
 .main-wrapper {
     padding: 60px;
     padding-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-wrapper .section {
@@ -166,6 +169,55 @@ svg:hover {
 
 .main-wrapper .summary-section .summary p {
     color: rgba(255, 255, 255, 1);
+}
+
+.form-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.contact-header {
+    font-size: 18px;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ff79c6;
+    margin-bottom: 15px;
+}
+
+.contact #contact-form input:not(.button), textarea {
+    width: 100%;
+    background: #282a36;
+    border: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 3px;
+    outline: none;
+    padding: 10px 15px;
+}
+
+.contact #contact-form textarea {
+    resize: vertical;
+}
+
+.contact #contact-form .button {
+    cursor: pointer;
+    background: #50fa7b;
+    margin-top: 5px;
+    color: #000;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+.contact #contact-form .button:hover {
+    background: #40db67;
 }
 
 .text-center {
